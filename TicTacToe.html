@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tic Tac Toe</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"> </script>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet2.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Tic Tac Toe</h1>
+		<div class='ttt'>
+			<div class="board">
+				<div class="cell 0" onCLick="setCell(0)"></div>
+				<div class="cell 1" onCLick="setCell(1)"></div>
+				<div class="cell 2" onCLick="setCell(2)"></div>
+				<div class="cell 3" onCLick="setCell(3)"></div>
+				<div class="cell 4" onCLick="setCell(4)"></div>
+				<div class="cell 5" onCLick="setCell(5)"></div>
+				<div class="cell 6" onCLick="setCell(6)"></div>
+				<div class="cell 7" onCLick="setCell(7)"></div>
+				<div class="cell 8" onCLick="setCell(8)"></div>
+			</div>
+			<div class="options">
+				<div class="playerText"></div>
+				<button class="newGame" onClick="init()">New Game</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
